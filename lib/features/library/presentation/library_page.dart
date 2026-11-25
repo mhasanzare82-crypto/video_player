@@ -1,7 +1,7 @@
 import 'dart:io';
-import 'dart:typed_data';
 
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
+import 'package:flutter/services.dart' show Uint8List;
 import 'package:flutter/services.dart';
 import 'package:video_thumbnail/video_thumbnail.dart';
 
