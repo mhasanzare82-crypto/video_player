@@ -1,19 +1,29 @@
-# EXM1
+# ویدیو پلیر
 
-A new Flutter project created with FlutLab - https://flutlab.io
+پخش‌کننده ویدیوهای محلی اندروید با Flutter.
 
-## Getting Started
+## ساختار کد
 
-A few resources to get you started if this is your first Flutter project:
+- `app`: راه‌اندازی و پوسته برنامه
+- `features/library/data`: انتخاب، کپی پایدار و نگهداری ویدیوها
+- `features/library/presentation`: کتابخانه و کارت‌های ویدیو
+- `features/player/data`: ارتباط با قابلیت تصویر در تصویر اندروید
+- `features/player/domain`: منطق مستقل قالب‌بندی زمان
+- `features/player/presentation`: صفحه پخش و کنترل‌ها
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+## امکانات این نسخه
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- انتخاب چند ویدیو از فایل‌گزین اندروید
+- کپی فایل انتخاب‌شده به فضای اختصاصی برنامه برای جلوگیری از وابستگی به مسیر موقت فایل‌گزین
+- ذخیره و بازیابی کتابخانه پس از بسته‌شدن برنامه
+- تصویر بندانگشتی، پخش و توقف، جلو/عقب رفتن، نوار زمان و تنظیم صدا
+- حالت تمام‌صفحه
+- درخواست ورود به تصویر در تصویر در Android 8.0 و بالاتر
 
-## Getting Started: FlutLab - Flutter Online IDE
+## مواردی که هنوز تکمیل نشده‌اند
 
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+پخش پایدار در پس‌زمینه با سرویس رسانه‌ای foreground، اعلان دائمی و MediaSession هنوز پیاده‌سازی نشده است. این قابلیت جداگانه و همراه با کنترل چرخه عمر پخش‌کننده باید تکمیل و روی دستگاه واقعی آزمایش شود.
+
+## بررسی و ساخت
+
+Workflow گیت‌هاب وابستگی‌ها را نصب می‌کند، تحلیل ایستا و تست‌ها را اجرا می‌کند، سپس APK آزمایشی می‌سازد و به‌عنوان Artifact بارگذاری می‌کند.
