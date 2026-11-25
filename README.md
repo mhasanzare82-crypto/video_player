@@ -1,19 +1,16 @@
-# EXM1
+# ویدیو پلیر
 
-A new Flutter project created with FlutLab - https://flutlab.io
+یک پخش‌کننده ساده ویدیوهای محلی برای اندروید، ساخته‌شده با Flutter.
 
-## Getting Started
+## امکانات نسخه اول
+- انتخاب یک یا چند ویدیو از فایل‌گزین اندروید
+- نمایش کتابخانه ویدیوها به‌صورت کارت تصویری
+- ذخیره فهرست انتخاب‌ها برای اجرای بعدی
+- پخش، توقف، جابه‌جایی در تایم‌لاین و تنظیم صدا
+- حالت تمام‌صفحه
+- ورود به حالت تصویر در تصویر (Android 8.0+)
 
-A few resources to get you started if this is your first Flutter project:
+## ساخت APK
+GitHub Actions فایل APK آزمایشی را در هر Push به شاخه توسعه می‌سازد و به‌عنوان Artifact منتشر می‌کند.
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
-
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Getting Started: FlutLab - Flutter Online IDE
-
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+> پخش صوتی پایدار در پس‌زمینه هنوز به سرویس رسانه‌ای foreground و کنترل اعلان اندروید نیاز دارد و در این نسخه به‌عنوان قابلیت تأییدشده ارائه نشده است.
