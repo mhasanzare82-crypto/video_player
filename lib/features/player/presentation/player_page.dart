@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:material_ui/material_ui.dart';
 import 'package:flutter/services.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:video_player/video_player.dart';
 
 import '../data/picture_in_picture_service.dart';
