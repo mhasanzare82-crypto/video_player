@@ -102,7 +102,7 @@ class VideoLibraryRepository {
   }
 
   String _safeFileName(String name) {
-    final sanitized = name.replaceAll(RegExp(r'[^a-zA-Z0-9._-]'), '_');
+    final sanitized = name.replaceAll(RegExp(r'[\\\\/:*?"<>|\\u0000-\\u001F]'), '_');
     return sanitized.isEmpty ? 'video' : sanitized;
   }
 
